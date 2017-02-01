@@ -1,4 +1,54 @@
-// DES.js
+/*********************************************************************************************
+* Name         : DES.js
+* Description  : Javascript implementation of the DES encryption algorithm
+* Version      : 1.0
+* License      : GPL 3.0
+* Author       : Alvaro Fernandez (nishinishi)
+* Contact mail : nishinishi9999@gmail.com
+*********************************************************************************************/
+
+/*********************************************************************************************
+* Contants (var)
+*
+*   - Permutation tables
+*       - initial_table
+*       - initial_table_L
+*       - initial_table_R
+*       - final_table
+*       - parity_drop_table
+*       - expansion_table
+*       - compression_table
+*       - straight_table
+*       - inverse_straight_table
+*       - s_box_table
+*       - shift_table
+*       - shift_offset
+*
+*
+*
+* Global variables
+*
+*
+*   - Arrays
+*       - K
+*   
+*
+*
+* Functions
+*
+*   - Utility functions:
+*       - bin_arr_to_ascii()
+*       - bin_arr_to_hex()
+*       - hex_to_bin_arr()
+*       - ascii_to_bin_arr()
+*
+*   - DES:
+*       - gen_round_keys()
+*       - cipher()
+*       - encrypt()
+*       - decrypt()
+*
+*********************************************************************************************/
 
 // var btoa = require('btoa'); // For nodejs testing
 
